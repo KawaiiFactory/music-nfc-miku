@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reproducción personalizada</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #e3edf6;
+      font-family: Arial, sans-serif;
+    }
+    img {
+      max-width: auto;
+      height: 65%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    audio {
+      width: 30%;
+      outline: none;
+      padding: 23px 0;
+      transform: scale(1.2);
+      transform-origin: center center;
+    }
+  </style>
+</head>
+<body>
+  <img src="Rabbit Hole.jpg" alt="Portada" />
+  <audio controls autoplay>
+    <source src="DECO_27 - Rabbit Hole.mp3" type="audio/mpeg" />
+    Tu navegador no soporta el audio.
+  </audio>
+</body>
+</html>
